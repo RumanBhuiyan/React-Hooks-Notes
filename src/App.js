@@ -1,9 +1,15 @@
 import React  from "react";
+import Counter from "./Components/Counter";
+import UseStateWithArray from "./Components/UseStateWithArray";
+import UseStateWithObject from "./Components/UseStateWithObject";
+
 
 function App() {
   return (
     <div >
-      <h1>Hello world</h1>      
+      <Counter />
+      <UseStateWithObject />
+      <UseStateWithArray />
     </div>
   );
 }
