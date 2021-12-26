@@ -1,9 +1,14 @@
 import React  from "react";
+// import FetchingPost from "./Components/FetchingPost";
+import Timer from "./Components/Timer";
+
+
 
 function App() {
   return (
     <div >
-      <h1>Hello world</h1>      
+      {/* <FetchingPost /> */}
+      <Timer/>
     </div>
   );
 }
