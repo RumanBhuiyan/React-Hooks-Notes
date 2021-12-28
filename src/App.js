@@ -1,9 +1,12 @@
 import React  from "react";
+import CounterOne from "./Components/CounterOne";
+import CounterTwo from "./Components/CounterTwo";
 
 function App() {
   return (
     <div >
-      <h1>Hello world</h1>      
+      <CounterOne />
+      <CounterTwo />    
     </div>
   );
 }
